@@ -1,0 +1,29 @@
+CRUD 
+
+Create -> Post [request body]
+Read ->   Get
+Update -> Put/Patch
+Delete -> Delete
+
+
+id -> 4
+{
+	name: "john",
+	age : "32"
+}
+
+
+http://localhost:3500/db/2 -> path parameter
+
+
+http://localhost:3500 -> base url
+
+/db -> endpoint
+
+
+
+2xx -> 200 , 201 , 204, 209,.... -> success
+4xx -> 400,401,403,404           -> client side errors
+5xx -> 500,502,504               -> server side errors
+
+
